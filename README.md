@@ -3,6 +3,7 @@
 ![Windows](https://img.shields.io/badge/Windows-Vista%20~%2011-blue)
 ![Linux](https://img.shields.io/badge/Linux-x64%20%7C%20Arm%20%7C%20Arm64-green)
 ![macOS](https://img.shields.io/badge/macOS-Intel%20%7C%20Apple%20Silicon-black)  
+## 🎨 特定の数字で色が変わるようになっています! 増やして欲しい場合は[Issues](https://github.com/sakuzyokun/Clock-CLI/issues)に書いてね!
 ⏰ **シンプル時計アプリ** for Windows Vista / 7 / 8 / 8.1 / 10 / 11/ Linux x64 / Linux Arm / Linux Arm64 / Linux Bionic Arm64 / OSX Arm64(Apple Silicon) / OSX x64(Intel CPU, 10.12以上)  
 🌱 **メモリ使用量 20〜30MB / CPU数％で動作！**  
 📦 シンプル・高速な時計 
