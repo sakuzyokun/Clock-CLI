@@ -45,7 +45,7 @@
 
 ## 📷 スクリーンショット
 Windows 11 で Clock-CLI を起動した様子 (v1.0.0)  
-![screenshot](https://github.com/sakuzyokun/Clock-MAUI/blob/main/CUsersOwnersourcereposClock-CLIClock-CLIbinReleaseClock-CLI.exe 1_b1.png?raw=true)  
+![screenshot](https://github.com/sakuzyokun/Clock-MAUI/blob/main/Clock-CLI.exe_b1.png?raw=true)  
 
 ---
 
