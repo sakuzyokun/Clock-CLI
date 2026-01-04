@@ -20,7 +20,7 @@
 
 | OS              | 対応状況        |
 |-----------------|----------------|
-| .NET Framework 3.5 Windows Vista      | ✅ 対応 |]
+| .NET Framework 3.5 Windows Vista      | ✅ 対応 |
 | .NET Framework 3.5 Windows 7      | ✅ 対応 |
 | .NET Framework 3.5 Windows 8      | ✅ 対応 |
 | .NET Framework 3.5 Windows 8.1      | ✅ 対応 |
