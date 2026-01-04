@@ -39,7 +39,7 @@
 
 > ※ ~ Windows XP は非対応です (もしかしたら動くかも)  
 > ※ Macは OSX 10.12 以下は非対応です  
-> ※ .NET Windows 10 は Version 2004 (Build 19041) 以下は起動しません  
+> ※ .NET 8.0 Windows 10 は Version 2004 (Build 19041) 以下は起動しません  
 
 ---
 
