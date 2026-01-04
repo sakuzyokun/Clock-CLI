@@ -24,6 +24,7 @@
 
 | OS              | 対応状況        |
 |-----------------|----------------|
+| .NET Framework 3.5 Windows XP      | ✅ 対応確認済み |
 | .NET Framework 3.5 Windows Vista      | ✅ 対応 |
 | .NET Framework 3.5 Windows 7      | ✅ 対応 |
 | .NET Framework 3.5 Windows 8      | ✅ 対応 |
@@ -31,7 +32,7 @@
 | .NET Framework 3.5 Windows 10      | ✅ 対応 |
 | .NET Framework 3.5 Windows 11      | ✅ 対応確認済み |
 | .NET 8.0 Windows 10      | ✅ 対応        |
-| .Net 8.0 Windows 11      | ✅ 対応確認済み (x64のみ x86,Arm64未確認) |
+| .Net 8.0 Windows 11      | ✅ 対応確認済み (x64のみ確認, Arm64未確認) |
 | .NET 8.0 Linux x64      | ✅ 対応 |
 | .NET 8.0 Linux Arm      | ✅ 対応 |
 | .NET 8.0 Linux Arm64      | ✅ 対応確認済み |
@@ -39,9 +40,9 @@
 | .NET 8.0 Mac OSX Arm64 (Apple Silicon)      | ✅ 対応 |
 | .NET 8.0 Mac OSX x64 (Intel CPU)       | ✅ 対応 |
 
-> ※ ~ Windows XP は非対応です (もしかしたら動くかも)  
+> ※ ~ Windows 2000 は非対応です  
 > ※ Macは OSX 10.12 以下は非対応です  
-> ※ .NET 8.0 Windows 10 は Version 2004 (Build 19041) 以下は起動しません  
+> ※ Windows 10 で .NET 8.0 を動作させる場合 Version 2004 (Build 19041) 以下は起動しません  
 
 ---
 
