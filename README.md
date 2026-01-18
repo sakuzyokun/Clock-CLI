@@ -31,7 +31,7 @@
 | .NET Framework 3.5 Windows 8.1      | ✅ 対応 |
 | .NET Framework 3.5 Windows 10      | ✅ 対応 |
 | .NET Framework 3.5 Windows 11      | ✅ 対応確認済み |
-| .NET 8.0 Windows 10      | ✅ 対応        |
+| .NET 8.0 Windows 10      | ✅ 対応 |
 | .Net 8.0 Windows 11      | ✅ 対応確認済み (x64のみ確認, Arm64未確認) |
 | .NET 8.0 Linux x64      | ✅ 対応 |
 | .NET 8.0 Linux Arm      | ✅ 対応 |
@@ -49,6 +49,15 @@
 ## 📷 スクリーンショット
 Windows 11 で Clock-CLI を起動した様子 (v1.0.0)  
 ![screenshot](https://github.com/sakuzyokun/Clock-CLI/blob/main/Clock-CLI.exe_b1.png?raw=true)  
+
+---
+## 📦 実行方法
+
+Linux の実行方法は特殊です  
+1. ダウンロードしたファイルのフォルダに移動 (``cd /home/ユーザー名/Download`` ``cd /home/ユーザー名/ダウンロード`` など)
+2. 実行権限を与える (``chmod +x Clock-CLI_Linux*``)
+3. 実行する (``./Clock-CLI_Linux*``)
+(もしかしたら Mac も同じかも?)
 
 ---
 
