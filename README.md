@@ -1,6 +1,6 @@
 # ⏰ Clock
 
-![Windows](https://img.shields.io/badge/Windows-Vista%20~%2011-blue)
+![Windows](https://img.shields.io/badge/Windows-XP%20~%2011-blue)
 ![Linux](https://img.shields.io/badge/Linux-x64%20%7C%20Arm%20%7C%20Arm64-black)
 ![macOS](https://img.shields.io/badge/macOS-Intel%20%7C%20Apple%20Silicon-white)  
 ## 🎨 特定の数字で色が変わるようになっています! 提案があったら[Issues](https://github.com/sakuzyokun/Clock-CLI/issues)に書いてね!
