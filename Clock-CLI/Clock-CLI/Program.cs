@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -40,7 +40,14 @@ namespace Clock_CLI
             int barWidth = 100;
             int filled = (int)(percent / 100 * barWidth);
 
-            Console.ForegroundColor = ConsoleColor.Green;
+            if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+            }
             Console.Write("Progress: [" + percent.ToString("0.0000") + "%]");
 
             Console.ResetColor();
@@ -62,8 +69,16 @@ namespace Clock_CLI
 
         private static void GetTime()
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Clock-CLI");
+            if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("Clock-CLI MikuMiku Edition");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Clock-CLI");
+            }
             
             DateTime localTime = DateTime.Now;
             string hour = DateTime.Now.ToString("HH");
@@ -115,7 +130,14 @@ namespace Clock_CLI
                 bigDigitsLines[i] = bigDigits[i].Split(new[] { "\r\n" }, StringSplitOptions.None);
             }
 
-            Console.ResetColor();
+            if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+            }
+            else
+            {
+                Console.ResetColor();
+            }
             Console.WriteLine("\n\nTime is");
 
             int lines = bigDigitsLines[0].Length;
@@ -129,6 +151,10 @@ namespace Clock_CLI
                     {
                         Console.ForegroundColor = ConsoleColor.Cyan;
                     }
+                    else if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                    }
                     else
                     {
                         Console.ResetColor();
@@ -138,7 +164,14 @@ namespace Clock_CLI
                 }
 
                 // コロン
-                Console.ResetColor();
+                if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                }
+                else
+                {
+                    Console.ResetColor();
+                }
                 Console.Write(colon[line]);
 
                 // 分
@@ -156,6 +189,10 @@ namespace Clock_CLI
                     {
                         Console.ForegroundColor = ConsoleColor.Cyan;
                     }
+                    else if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                    }
                     else
                     {
                         Console.ResetColor();
@@ -165,7 +202,14 @@ namespace Clock_CLI
                 }
 
                 // コロン
-                Console.ResetColor();
+                if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                }
+                else
+                {
+                    Console.ResetColor();
+                }
                 Console.Write(colon[line]);
 
                 // 秒
@@ -179,6 +223,10 @@ namespace Clock_CLI
                     {
                         Console.ForegroundColor = ConsoleColor.Cyan;
                     }
+                    else if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                    }
                     else
                     {
                         Console.ResetColor();
@@ -188,13 +236,27 @@ namespace Clock_CLI
                 }
 
                 // コロン
-                Console.ResetColor();
+                if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                }
+                else
+                {
+                    Console.ResetColor();
+                }
                 Console.Write(colon[line]);
 
                 // ミリ秒
                 for (int d = 0; d < millisec.Length; d++)
                 {
-                    Console.ResetColor();
+                    if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                    }
+                    else
+                    {
+                        Console.ResetColor();
+                    }
                     int n = millisec[d] - '0';
                     Console.Write(bigDigitsLines[n][line]);
                 }
@@ -214,7 +276,14 @@ namespace Clock_CLI
                 }
 
                 // スラッシュ
-                Console.ResetColor();
+                if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                }
+                else
+                {
+                    Console.ResetColor();
+                }
                 Console.Write(slash[line]);
 
                 // 月
@@ -233,7 +302,14 @@ namespace Clock_CLI
                 }
 
                 // スラッシュ
-                Console.ResetColor();
+                if (DateTime.Now.Month == 3 && DateTime.Now.Day == 9)
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                }
+                else
+                {
+                    Console.ResetColor();
+                }
                 Console.Write(slash[line]);
 
                 // 日
@@ -253,7 +329,8 @@ namespace Clock_CLI
                 Console.WriteLine();
             }
 
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ResetColor();
+
             Console.WriteLine("\n\n");
             Console.WriteLine($"Local Time: {localTime}");
             Console.WriteLine($"UTC Time: {localTime.ToUniversalTime()}");
